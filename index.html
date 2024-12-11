@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bart Simpson's Sentences</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Bart Simpson's Sentences</h1>
+    <label for="sentence">Enter a sentence:</label>
+    <br>
+    <input type="text" id="sentence" placeholder="Type your sentence here...">
+    <br><br>
+    <label for="repeat">How many times?</label>
+    <br>
+    <input type="number" id="repeat" min="1" placeholder="Enter a number">
+    <br><br>
+    <button onclick="writeSentences()">Write Sentences</button>
+    <br><br>
+    <ol id="output"></ol>
+    <script src="script.js"></script>
+</body>
+</html>
